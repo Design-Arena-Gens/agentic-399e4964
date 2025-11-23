@@ -914,4 +914,26 @@ config/database.yml
 *.tar
 *.zip
 
+# ===== YOUTUBE SHORTS PIPELINE =====
+# Generated videos and assets
+/public/videos/*
+!/public/videos/.gitkeep
+
+# Audio files
+*.mp3
+*.wav
+*.aac
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Footage files
+footage_*.mp4
+
+# Info files (keep for tracking)
+# info.json
+
 # ===== END =====
